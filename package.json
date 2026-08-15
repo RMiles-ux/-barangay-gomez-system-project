@@ -1,0 +1,16 @@
+{
+  "name": "barangay-gomez-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backend API + SQLite database for the Barangay Gomez Complaint & Concern Management System",
+  "main": "server.js",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
