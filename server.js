@@ -58,7 +58,7 @@ app.post('/api/data/reset', (req, res) => {
 // ─── Static frontend ──────────────────────────────────────────
 // Serves Document.html, script.js, style.css, and the barangay logo
 // from the project root (one directory up from /server).
-const FRONTEND_DIR = path.join(__dirname, '..');
+const FRONTEND_DIR = __dirname; 
 app.use(express.static(FRONTEND_DIR, { index: 'Document.html' }));
 
 // Any unknown non-API route falls back to the app shell (single page app).
